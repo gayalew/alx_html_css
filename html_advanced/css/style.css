@@ -1,0 +1,472 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header
+{
+    border: 1px solid black;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    position: relative;
+}
+
+.logo
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin: 15px;
+}
+
+.logo h3
+{
+    color: white;
+}
+
+nav a
+{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    color: fuchsia;
+}
+
+nav a:hover
+{
+    color: blue;
+}
+
+main
+{
+    height: 800px;
+    padding: 0;
+    background-image: url("../asset/images/back-gn.jpg");
+    background-repeat: none;
+    background-position: center;
+    background-size: auto;
+    position: relative;
+    top: -80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.firstsec
+{
+   text-align: center;
+}
+
+.firstsec h4, p
+{
+    color: white;
+}
+
+.firstsec h4
+{
+    font-size: 50px;
+    font-weight: 200;
+    font-family: sans-serif;
+}
+
+.firstsec p
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.firstsec button a:hover
+{
+    color: rgb(238, 16, 53);
+}
+
+.secondsec
+{
+    margin: 50px;
+    
+}
+
+#tit
+{
+    color: white;
+    font-size: medium;
+    text-align: center;
+}
+
+.gds
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+.gds h3
+{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.gds p
+{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.gds img
+{
+    border-radius: 50%;
+}
+
+.gds div
+{
+    padding: 10px;
+}
+
+.thirdsec
+{
+    height: 20vh;
+    width: inherit;
+    position: relative;
+    top: -80px;
+    padding: 25px;
+    margin-left: 0;
+    display: flex;
+    background-color: rgb(143, 51, 138);
+}
+
+.thirdsec img
+{
+    border-radius: 50px;
+    margin-right: 5px;
+}
+
+.cont
+{
+    flex-direction: column;
+    padding: 0;
+}
+#q1
+{
+    font-family: serif;
+    color: white;
+    margin: 0;
+}
+
+#n4
+{
+    color: white;
+    margin-bottom: 2px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#cr
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.fourthsec
+{
+    height: 25vh;
+    position: relative;
+    top: -80px;
+}
+
+#tit2
+{
+   text-align: center;
+   font-size: large;
+   font-family: 'Times New Roman', Times, serif;
+   margin: 50px;
+   color: blue;
+}
+
+.sec1
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 25px;
+    position: relative;
+    top: -20px;
+}
+
+.bloc1
+{
+    flex-direction: column;
+}
+
+.bloc2
+{
+    flex-direction: column;
+}
+
+.bloc3
+{
+    flex-direction: column;
+}
+
+.bloc4
+{
+    flex-direction: column;
+}
+
+.sec1 h4
+{
+   font-size: medium; 
+   font-family: 'Courier New', Courier, monospace;
+   position: relative;
+   top: -5px;
+}
+
+.sec1 p
+{
+  color: black;
+  font-size: 10px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: relative;
+  top: -20px;
+}
+
+.sec1 img
+{
+    border-radius: 50%;
+    position: relative;
+    top: -15px;
+    color: black;
+}
+
+.rev
+{
+    display: flex;
+    justify-content: right;
+}
+
+.rev h5
+{
+    margin: 0;
+    position: relative;
+    top: -15px;
+    justify-content: space-around;
+    font-size: 8px;
+    padding: 5px;
+}
+
+.lim
+{
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+}
+.fifthsec
+{
+    height: 40vh;
+    width: inherit;
+    background-color: rgb(30, 43, 77);
+    margin-top: 50px;
+    padding: 10px;
+    
+}
+
+.fifthsec h4
+{
+   text-align: center;
+   color: aquamarine;
+   
+}
+
+.sec2
+{
+    display: flex;
+    justify-content: space-around;
+    margin: 8px;
+    padding: 10px;
+}
+
+.log
+{
+    border-radius: 50%;
+    position: relative;
+    bottom: -15px;
+    display: flex;
+    justify-content: center;
+}
+
+.sec2 div h6
+{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.cont1
+{
+    flex-direction: column;
+    justify-content: center;
+}
+.lt
+{
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    position: relative;
+    top: -15px;
+    text-align: center;
+}
+
+.lt:hover
+{
+    color: red;
+}
+
+.butc
+{
+    display: flex;
+    justify-content: center;
+}
+
+#but2
+{
+    color: rgb(226, 43, 98);
+    border-radius: 15%;
+}
+
+#but2:hover
+{
+    color: blue;
+}
+
+.sixsec
+{
+    height: 100vh;
+    width: inherit;
+}
+
+#ttl
+{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#container1
+{
+    font-family: 'Times New Roman', Times, serif;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.col1 h5, .col2 h5
+{
+    color: black;
+}
+
+.col1 p, .col2 p
+{
+    color: black;
+}
+
+.col1, .col2
+{
+    width: 280px;
+    float: left;
+    margin: 10px;
+}
+
+#container2
+{
+    font-family: 'Times New Roman', Times, serif;
+    height: 50vh;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.col3 h5, .col4 h5
+{
+    color: black;
+}
+
+.col3 p, .col4 p
+{
+    color: black;
+}
+
+.col3, .col4
+{
+    width: 280px;
+    float: left;
+    margin: 10px;
+}
+
+footer
+{
+    height: 25vh;
+    width: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 30px;
+    background-color: rgb(30, 43, 77);
+    z-index: 1000;
+    position: relative;
+    top: 45px;
+}
+
+.last
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.last img
+{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-left: 15px;
+}
+
+.last h3
+{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+}
+
+.soc img
+{
+    border-radius: 50%;
+}
+
+#date
+{
+   display: flex;
+   justify-content: center;
+   position: relative;
+   top: 50px;
+}
+
+#date p
+{
+   text-align: center;
+   color: white;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: small;
+}
