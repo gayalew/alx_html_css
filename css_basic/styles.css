@@ -4,11 +4,17 @@ body
 	flex-direction: column;
 }
 
+header
+{
+	background-color: rgb(30, 32, 41);
+}
+
 main
 {
 	display: flex;
 	flex-direction: row;
 	flex: auto;
+	background-color: lightgrey;
 }
 
 main article
@@ -21,4 +27,19 @@ main aside
 {
 	flex: 1;
 	overflow-y: auto;
+}
+
+.navig
+{
+	color: rgb(221, 5, 210);
+}
+
+.navig:hover
+{
+	color: aqua;
+}
+
+footer
+{
+	background-color: rgb(48, 70, 69);
 }
