@@ -27,6 +27,7 @@ main aside
 {
 	flex: 1;
 	overflow-y: auto;
+	background-color: rgb(112, 165, 245);
 }
 
 .navig
